@@ -5,10 +5,6 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import KFold, cross_val_score
 from sklearn.preprocessing import scale
 
-import matplotlib
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
 
 # 1. Загружаем housing.csv
 df = pd.read_csv("data/housing.csv")
